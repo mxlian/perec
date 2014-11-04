@@ -1825,10 +1825,10 @@ main article div#article_text pre {
   margin: 22px 2px 22px 2px;
   padding: 2px;
   color: #000000;
-  border-left: 3px solid #000000;
+  /*border-left: 3px solid #000000;*/
   font-size: 0.75em;
   font-family: 'PT Mono', monospace;
-  background: #eeeeee;
+  /*background: #eeeeee;*/
   line-height: 1.125em;
   overflow-x: auto;
 }
@@ -1946,7 +1946,7 @@ main div#ending_message {
     overflow-y: hidden;
   }
   main article {
-    max-width: 95%;
+    max-width: 66%;
   }
   main header {
     border-top: 0;
