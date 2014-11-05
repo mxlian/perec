@@ -1788,7 +1788,7 @@ main header {
   border-bottom: #eeeeee 1px solid;
 }
 main header p {
-  margin-right: 100px;
+  /*margin-right: 100px;*/
   font-family: 'Roboto Slab', 'Hoefler Text', 'Cambria', Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -1838,9 +1838,10 @@ main article div#article_text blockquote {
   color: #999999;
   font-style: italic;
 }
-main article div#article_text img.align-center {
-  max-width: 800px;
-  max-height: 800px;
+/*main article div#article_text img.align-center {*/
+main article div#article_text img {
+  max-width: 640px;
+  max-height: 480px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1945,14 +1946,17 @@ main div#ending_message {
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  main article {
-    max-width: 66%;
-  }
+  /*main article {*/
+    /*max-width: 95%;*/
+  /*}*/
   main header {
     border-top: 0;
   }
 }
 @media screen and (max-width: 960px) {
+  main article div#article_text img {
+    max-width: 100%;
+  }
   aside {
     position: relative;
   }
