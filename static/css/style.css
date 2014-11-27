@@ -1780,6 +1780,7 @@ aside div#user_meta ul li a.nav_selected {
   /*background-color: rgba(68, 68, 68, 0.4);*/
   background-color: rgba(0, 0, 0, 0.2);
   /*background-image: linear-gradient(140deg, rgba(68, 68, 68, 0.4) 20%, rgba(0, 0, 0, 0.7));*/
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5));
   z-index: 0;
   color: white;
 }
@@ -1825,7 +1826,7 @@ main article div#article_text code {
 main article div#article_text pre {
   margin: 22px 2px 22px 2px;
   padding: 2px;
-  color: #000000;
+  /*color: #000000;*/
   /*border-left: 3px solid #000000;*/
   font-size: 0.75em;
   font-family: 'PT Mono', monospace;
